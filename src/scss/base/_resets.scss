@@ -1,0 +1,16 @@
+/* * margin, padding, buttons fonts*/
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: content-box;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+    font-family: var(--font-work);
+}

@@ -1,0 +1,377 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300&family=Poppins:wght@700&family=Ubuntu:wght@300;400&family=Work+Sans:wght@500&display=swap');
+
+:root {
+  --font-fredoka: "Fredoka One", cursive;
+  --font-poppins: "Poppins", sans-serif;
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-work: "Work Sans", sans-serif;
+}
+
+/*Header*/
+
+.header_sectionbg {
+  background-image: url("https://www.patchnco.pt/wp-content/uploads/2022/04/4N1A8203.jpg");
+  background-size: 100vmax;
+  background-repeat: no-repeat;
+  padding: 25px;
+
+  h1 {
+    font-family: var(--font-fredoka);
+    font-size: 40px;
+    color: whitesmoke;
+    display: inline-flex;
+  }
+}
+
+.navbar_container {
+  font-family: var(--font-poppins);
+  font-size: 10px;
+  display: inline-flex;
+  padding-left: 31rem;
+
+  a {
+    margin-inline: 5px;
+    color: aliceblue;
+    padding: 10px;
+    padding-top: 0%;
+    padding-bottom: 0px;
+  }
+}
+
+.vectors {
+  margin-inline: 28px;
+  width: 22px;
+  padding-bottom: 0%;
+}
+
+.nav_button {
+  display: inline-flex;
+  margin-left: 33rem;
+
+  button {
+    padding-right: 5px;
+    margin-inline: 4px;
+    color: aliceblue;
+    font-size: 9px;
+  }
+}
+
+.content_section {
+  font-family: var(--font-ubuntu);
+  font-size: 60px;
+  margin-top: 10rem;
+  margin-right: 10rem;
+  text-align: center;
+
+  p {
+    color: aliceblue;
+  }
+
+  button {
+    color: aliceblue;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15rem;
+    margin-bottom: 8rem;
+    border: 3px solid aliceblue;
+  }
+}
+
+/*PufiRain Section*/
+
+.rain_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://storage.googleapis.com/pod_public/1300/71786.jpg");
+  width: 50%;
+  height: 70vh;
+  float: left;
+
+  button {
+    margin-left: 39vh;
+    margin-top: 35vh;
+    font-size: 16px;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.rain_section {
+  font-family: var(--font-ubuntu);
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15vh;
+
+  p {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  hr {
+    background-color: black;
+    width: 35px;
+    border: 0.1px solid black;
+    margin-left: 74%;
+  }
+
+  button {
+    padding-top: 30px;
+    font-size: 15px;
+    padding-bottom: 7.2rem;
+  }
+}
+
+/*PufiPuff Section*/
+
+.puff_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.shopify.com/s/files/1/0015/5094/2267/products/Lifestyle-airpuff-oranges_5b2a1c9b-5646-4229-b7ee-faed1cef554a.jpg?v=1653236206");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 70vh;
+  float: right;
+}
+
+.puff_section {
+  font-family: var(--font-ubuntu);
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15vh;
+
+  p {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  hr {
+    background-color: black;
+    width: 35px;
+    border: 0.1px solid black;
+    margin-left: 24%;
+  }
+
+  button {
+    padding-top: 30px;
+    font-size: 15px;
+    padding-bottom: 5.6rem;
+  }
+}
+
+/*PufiCart Section*/
+
+.cart_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.insider.com/6079ae7144f454001920715c?width=1000&format=jpeg&auto=webp");
+  width: 50%;
+  height: 70vh;
+  float: left;
+
+  button {
+    margin-left: 39vh;
+    margin-top: 35vh;
+    font-size: 16px;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.cart_section {
+  font-family: var(--font-ubuntu);
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15vh;
+
+  p {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  hr {
+    background-color: black;
+    width: 35px;
+    border: 0.1px solid black;
+    margin-left: 74%;
+  }
+
+  button {
+    padding-top: 30px;
+    font-size: 15px;
+    padding-bottom: 7.2rem;
+  }
+}
+
+/*PufiNap Section*/
+
+.nap_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://assets-global.website-files.com/5b0ee246bd5a96cce5ca393b/5d4dea4e2973ca002220775a_sleeping%20on%20planes.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 70vh;
+  float: right;
+}
+
+.nap_section {
+  font-family: var(--font-ubuntu);
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15vh;
+
+  p {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  hr {
+    background-color: black;
+    width: 35px;
+    border: 0.1px solid black;
+    margin-left: 24%;
+  }
+
+  button {
+    padding-top: 30px;
+    font-size: 15px;
+    padding-bottom: 10rem;
+  }
+}
+
+/*Espuf Section*/
+
+.espuf_title {
+  text-align: center;
+  margin-top: 65px;
+
+  h5 {
+    font-family: var(--font-work);
+    font-weight: 300;
+    color: gainsboro;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-family: var(--font-ubuntu);
+    font-weight: 200;
+    font-size: 45px;
+  }
+}
+
+.espuf_collage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 600px;
+  grid-gap: 0.1rem;
+  margin-left: 30%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/*Newletter Section*/
+
+.suscribe_section {
+  text-align: center;
+
+  h5 {
+    font-family: var(--font-work);
+    font-weight: 300;
+    color: gainsboro;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-family: var(--font-ubuntu);
+    font-weight: 200;
+    font-size: 45px;
+  }
+
+  p {
+    font-family: var(--font-ubuntu);
+  }
+}
+
+.form_section {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  margin-top: 2rem;
+  margin-left: 28.8rem;
+  margin-right: 28.8rem;
+
+  input {
+    font-family: var(--font-ubuntu);
+    font-size: 15px;
+    margin-left: 15px;
+    background-color: whitesmoke;
+    border: none;
+    height: 2.5rem;
+  }
+
+  p {
+    font-family: var(--font-ubuntu);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 9px;
+  }
+}
+
+/*Bottom Section*/
+
+.bottom_section {
+  margin-top: 6rem;
+  padding-top: 2rem;
+  border-top: 1px solid gainsboro;
+  -webkit-box-shadow: 0px -4px 4px gainsboro;
+  -moz-box-shadow: 0px -4px 4px gainsboro;
+  box-shadow: 0px -4px 4px gainsboro;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+
+  li {
+    font-family: var(--font-fredoka);
+    font-size: 10px;
+    list-style: none;
+    margin: 2rem;
+    border-right: 1px solid rgb(190, 185, 185);
+  }
+
+  ul {
+    margin-bottom: 15px;
+  }
+
+  img {
+    width: 25px;
+    padding-left: 12px;
+  }
+}
+
+.p_bottom {
+  font-family: var(--font-fredoka);
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.footer_section {
+    font-family: var(--font-ubuntu);
+    font-size: 12px;
+    color: rgb(190, 185, 185);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-top: 1.5px solid rgb(190, 185, 185);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
